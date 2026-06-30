@@ -1,0 +1,4 @@
+If Application.WorksheetFunction.Count(rng) = 0 Then
+        STATFUNCTION = "Нет данных"
+        Exit Function
+    End If
